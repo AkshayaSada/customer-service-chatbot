@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day", "Is anyone there?", "Greetings"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What can I help you with?"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my package", "Order status", "When will my order arrive?"],
+      "responses": ["Please provide your order ID, and I will check the latest status for you."]
+    },
+    {
+      "tag": "shipping",
+      "patterns": ["Do you ship internationally?", "What are the shipping options?", "How long does delivery take?"],
+      "responses": ["Standard shipping takes 3-5 business days. Express shipping takes 1-2 days."]
+    },
+    {
+      "tag": "returns",
+      "patterns": ["How do I return an item?", "What is your return policy?", "I want to send something back"],
+      "responses": ["You can return any item within 30 days of delivery. Visit our returns portal to get started."]
+    },
+    {
+      "tag": "refunds",
+      "patterns": ["When will I get my refund?", "How do refunds work?", "Where is my money?"],
+      "responses": ["Once we receive your returned item, refunds take 3-5 business days to process."]
+    },
+    {
+      "tag": "payment_issues",
+      "patterns": ["My payment failed", "Card was declined", "Why was I charged twice?"],
+      "responses": ["Sorry for the trouble! Please verify your billing details or try using an alternative payment method."]
+    },
+    {
+      "tag": "product_info",
+      "patterns": ["Do you sell laptops?", "Is this item in stock?", "Tell me about your products"],
+      "responses": ["You can browse our full product catalog directly on our website under the Shop section."]
+    },
+    {
+      "tag": "working_hours",
+      "patterns": ["What are your business hours?", "Are you open on weekends?", "When do you close?"],
+      "responses": ["Our support team is available Monday through Friday from 9 AM to 6 PM EST."]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": ["I need to speak to a human", "Can I call support?", "Customer service email"],
+      "responses": ["You can reach our human support team directly at support@example.com."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "That's all, thanks"],
+      "responses": ["Thank you for reaching out! Have a great day ahead.", "Goodbye! Feel free to chat anytime."]
+    }
+  ]
+}
